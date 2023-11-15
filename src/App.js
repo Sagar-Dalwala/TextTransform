@@ -42,7 +42,7 @@ function App() {
         <Route exact path='/about'>
           <About mode={mode}/>
         </Route>
-        <Route exact path='/'>
+        <Route exact path='TextTransform'>
           <TextForm entertext="Provide Your Text" heading="Text to Analyze" mode={mode} showAlert={showAlert}/>
           </Route>
       </Switch>
