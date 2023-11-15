@@ -3,8 +3,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Alert from './components/Alert';
 import TextForm from './components/TextForm';
-import About from './components/About';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// import About from './components/About';
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 function App() {
@@ -34,19 +34,18 @@ function App() {
   
   return (
     <>
-      <Router>
-
+      {/* <Router> */}
       <Navbar title="Text Transform" mode={mode} toggleMode={toggleMode}/> 
       <Alert alert={alert}/>
-      <Switch>
-        <Route exact path='/about'>
-          <About mode={mode}/>
-        </Route>
-        <Route exact path='TextTransform'>
+      {/* <Switch> */}
+        {/* <Route exact path='/about'> */}
+          {/* <About mode={mode}/> */}
+        {/* </Route> */}
+        {/* <Route exact path='/'> */}
           <TextForm entertext="Provide Your Text" heading="Text to Analyze" mode={mode} showAlert={showAlert}/>
-          </Route>
-      </Switch>
-      </Router>
+          {/* </Route> */}
+      {/* </Switch> */}
+      {/* </Router> */}
       {/* <Navbar/> */}
       {/* <TextForm entertext="Provide Your Text" heading="Text to Analyze" mode={mode} showAlert={showAlert}/> */}
       {/* <About/> */}
