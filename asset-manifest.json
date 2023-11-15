@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TextTransform/static/css/main.31d6cfe0.css",
-    "main.js": "/TextTransform/static/js/main.0b0e9f7a.js",
+    "main.js": "/TextTransform/static/js/main.03fc9c96.js",
     "static/js/787.a1b5c9fb.chunk.js": "/TextTransform/static/js/787.a1b5c9fb.chunk.js",
     "index.html": "/TextTransform/index.html",
-    "main.0b0e9f7a.js.map": "/TextTransform/static/js/main.0b0e9f7a.js.map",
+    "main.03fc9c96.js.map": "/TextTransform/static/js/main.03fc9c96.js.map",
     "787.a1b5c9fb.chunk.js.map": "/TextTransform/static/js/787.a1b5c9fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.0b0e9f7a.js"
+    "static/js/main.03fc9c96.js"
   ]
 }
